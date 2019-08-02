@@ -1,0 +1,190 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package lacrastemalhariafx;
+
+import java.io.IOException;
+import java.net.URL;
+import java.util.EventObject;
+import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+/**
+ * FXML Controller class
+ *
+ * @author natal
+ */
+public class OpFuncionarioController implements Initializable {
+    
+    @FXML
+    private void OpcoesFuncio(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("OpFuncionario.fxml"));
+        Parent root = loader.load();
+        Stage stagePraFechar = (Stage)((Node)((EventObject) event).getSource()).getScene().getWindow();
+        stagePraFechar.hide();
+
+        //System.out.println("vc clicaste me!");
+       // labelInicio.setText("ola mundo!");
+        Scene scene = new Scene(root);
+        Stage stage = new Stage();
+        stage.setScene(scene);
+        stage.show();
+    }
+    
+    
+    @FXML
+    
+    private void menuOpcoes(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("Opcoes.fxml"));
+        Parent root = loader.load();
+        Stage stagePraFechar = (Stage)((Node)((EventObject) event).getSource()).getScene().getWindow();
+        stagePraFechar.hide();
+
+        //System.out.println("vc clicaste me!");
+       // labelInicio.setText("ola mundo!");
+        Scene scene = new Scene(root);
+        Stage stage = new Stage();
+        stage.setScene(scene);
+        stage.show();
+    }
+    
+    @FXML
+     private void botaoInicial(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("FXMLDocument.fxml"));
+        Parent root = loader.load();
+        Stage stagePraFechar = (Stage)((Node)((EventObject) event).getSource()).getScene().getWindow();
+        stagePraFechar.hide();
+        
+        Scene scene = new Scene(root);
+        Stage stage = new Stage();
+        stage.setScene(scene);
+        stage.show();
+    }
+     
+    ////////////////////////////////////////////////setores///////////////////////////////////////////////////////
+     
+     @FXML
+    private void OpcoesTece(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("OpTecelagem.fxml"));
+        Parent root = loader.load();
+        Stage stagePraFechar = (Stage)((Node)((EventObject) event).getSource()).getScene().getWindow();
+        stagePraFechar.hide();
+
+        //System.out.println("vc clicaste me!");
+       // labelInicio.setText("ola mundo!");
+        Scene scene = new Scene(root);
+        Stage stage = new Stage();
+        stage.setScene(scene);
+        stage.show();
+    }
+    
+    @FXML
+    private void OpcoesCorteCost(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("OpCorteCostura.fxml"));
+        Parent root = loader.load();
+        Stage stagePraFechar = (Stage)((Node)((EventObject) event).getSource()).getScene().getWindow();
+        stagePraFechar.hide();
+
+        //System.out.println("vc clicaste me!");
+       // labelInicio.setText("ola mundo!");
+        Scene scene = new Scene(root);
+        Stage stage = new Stage();
+        stage.setScene(scene);
+        stage.show();
+    }
+    
+    @FXML
+    private void OpcoesManMaq(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("OpManuMaquina.fxml"));
+        Parent root = loader.load();
+        Stage stagePraFechar = (Stage)((Node)((EventObject) event).getSource()).getScene().getWindow();
+        stagePraFechar.hide();
+
+        //System.out.println("vc clicaste me!");
+       // labelInicio.setText("ola mundo!");
+        Scene scene = new Scene(root);
+        Stage stage = new Stage();
+        stage.setScene(scene);
+        stage.show();
+    }
+    
+        @FXML
+    private void OpcoesMode(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("OpModelagem.fxml"));
+        Parent root = loader.load();
+        Stage stagePraFechar = (Stage)((Node)((EventObject) event).getSource()).getScene().getWindow();
+        stagePraFechar.hide();
+
+        //System.out.println("vc clicaste me!");
+       // labelInicio.setText("ola mundo!");
+        Scene scene = new Scene(root);
+        Stage stage = new Stage();
+        stage.setScene(scene);
+        stage.show();
+    }
+    
+     @FXML
+    private void OpcoesEstoque(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("OpEstoque.fxml"));
+        Parent root = loader.load();
+        Stage stagePraFechar = (Stage)((Node)((EventObject) event).getSource()).getScene().getWindow();
+        stagePraFechar.hide();
+
+        //System.out.println("vc clicaste me!");
+       // labelInicio.setText("ola mundo!");
+        Scene scene = new Scene(root);
+        Stage stage = new Stage();
+        stage.setScene(scene);
+        stage.show();
+    }
+    
+    @FXML
+    private void OpcoesPesModa(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("OpPesModa.fxml"));
+        Parent root = loader.load();
+        Stage stagePraFechar = (Stage)((Node)((EventObject) event).getSource()).getScene().getWindow();
+        stagePraFechar.hide();
+
+        //System.out.println("vc clicaste me!");
+       // labelInicio.setText("ola mundo!");
+        Scene scene = new Scene(root);
+        Stage stage = new Stage();
+        stage.setScene(scene);
+        stage.show();
+    }
+    
+    @FXML
+    private void OpcoesRH(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("OpRH.fxml"));
+        Parent root = loader.load();
+        Stage stagePraFechar = (Stage)((Node)((EventObject) event).getSource()).getScene().getWindow();
+        stagePraFechar.hide();
+
+        //System.out.println("vc clicaste me!");
+       // labelInicio.setText("ola mundo!");
+        Scene scene = new Scene(root);
+        Stage stage = new Stage();
+        stage.setScene(scene);
+        stage.show();
+    }
+    
+    
+
+    /**
+     * Initializes the controller class.
+     */
+    @Override
+    public void initialize(URL url, ResourceBundle rb) {
+        // TODO
+    }    
+    
+}

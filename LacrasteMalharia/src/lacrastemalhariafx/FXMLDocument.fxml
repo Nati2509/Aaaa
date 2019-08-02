@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lacrastemalhariafx.FXMLDocumentController">
+    <children>
+      <ImageView fitHeight="556.0" fitWidth="752.0" layoutY="-3.0">
+         <image>
+            <Image url="@inicil.jpg" />
+         </image>
+      </ImageView>
+        <Button fx:id="opcoes1" graphicTextGap="5.0" layoutX="650.0" layoutY="500.0" onAction="#menuOpcoes" prefHeight="17.0" prefWidth="69.0" style="-fx-opacity: 30;" text="Opções" textAlignment="CENTER" textFill="#140202">
+         <effect>
+            <InnerShadow choke="0.53" color="#c3072d" height="32.86" radius="21.86" width="56.58" />
+         </effect>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+        <Label fx:id="labelInicio" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Accordion layoutX="126.0" layoutY="163.0" />
+    </children>
+</AnchorPane>
